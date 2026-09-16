@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 import tkinter as tk
-from datetime import *
 
 def addition():
    try:
