@@ -12,7 +12,6 @@ def addition():
 
      result=first+second
 
-     now=datetime.now()
      result_label.config(text=f"Result is {result}")
 
    except ValueError:
@@ -83,8 +82,6 @@ second_label.pack()
 second_entry=tk.Entry(window,font=("Algerian",14),width=30)
 second_entry.pack(pady=5)
 
-
-
 #Addition button
 add_button=tk.Button(window,text="ADD",font=("Algerian",12,"bold"),width=15,command=addition)
 add_button.pack(pady=5)
@@ -107,7 +104,3 @@ result_label=tk.Button(window,text="Result:",font=("Algerian",12,"bold"),width=1
 result_label.pack(pady=5)
 
 window.mainloop()
-
-
-
-
