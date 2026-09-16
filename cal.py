@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 
+"""A basic simple calculator developed using procedures perfoming
+addition,subtraction,multiplication and division"""
+
 import tkinter as tk
 
 def addition():
